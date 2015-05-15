@@ -63,7 +63,7 @@
     $scope.reverseSort = false;
 
     $scope.time = function (event) {
-      var time = moment([event.year, event.month, event. day]);
+      var time = moment([event.year, event.month, event.day]);
 
       return time;
     };
