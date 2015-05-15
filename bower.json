@@ -1,0 +1,29 @@
+{
+  "name": "date-app-intercom",
+  "version": "0.0.1",
+  "authors": [
+    "Jordan Humphreys"
+  ],
+  "description": "An event list app.",
+  "main": "gulpfile.js",
+  "keywords": [
+    "framework",
+    "angular",
+    "web",
+    "apps"
+  ],
+  "license": "MIT",
+  "homepage": "http://foundation.zurb.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation-apps": "~1.1.0",
+    "moment": "~2.10.3"
+  }
+}

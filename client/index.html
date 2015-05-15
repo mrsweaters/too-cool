@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en" ng-app="application">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Too Cool Events | Upcoming</title>
+    <link href="/assets/css/app.css" rel="stylesheet" type="text/css">
+    <script src="/assets/js/foundation.js"></script>
+    <script src="/assets/js/templates.js"></script>
+    <script src="/assets/js/routes.js"></script>
+    <script src="/assets/js/app.js"></script>
+  </head>
+  <body>
+    <zf-offcanvas id="menu" position="left">
+      <div class="grid-block">
+        <div class="grid-content">
+          <section class="block-list">
+            <header>Main Menu</header>
+            <ul>
+              <li class="active"><a href="#">Upcoming Events</a></li>
+              <li><a href="#">Sign In</a></li>
+              <li zf-close><a href="#"><img zf-iconic icon="circle-x" size="medium" class="iconic-color-dark">Close Menu</a></li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </zf-offcanvas>
+    <div class="grid-frame vertical">
+      <div class="grid-content shrink" style="padding: 0;">
+        <div class="menu-group secondary" style="background: white">
+          <div class="menu-group-left">
+            <ul class="menu-bar seondary">
+              <li><a href="#"><strong>Too Cool Events</strong></a></li>
+              <li class="show-for-small-only float-right"><a zf-open="menu">Nav</a></li>
+            </ul>
+          </div>
+          <div class="menu-group-right hide-for-small-only">
+            <ul class="icon-left secondary menu-bar">
+              <li class="active"><a href="#">Upcoming Events</a></li>
+              <li><a href="#">Sign In</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div ui-view class="grid-content event-space">
+      </div>
+    </div>
+  </body>
+</html>
