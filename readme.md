@@ -12,7 +12,7 @@ You'll need the following software installed to get started.
 
 ## Get Started
 
-Clone this repository, where `app` is the name of your app.
+Clone this repository, where `too-cool` is the name of your app.
 
 ```bash
 git clone https://github.com/mrsweaters/too-cool.git
