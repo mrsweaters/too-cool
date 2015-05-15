@@ -15,7 +15,7 @@ You'll need the following software installed to get started.
 Clone this repository, where `app` is the name of your app.
 
 ```bash
-git clone https://github.com/mrsweaters/too-cool.git app
+git clone https://github.com/mrsweaters/too-cool.git
 ```
 
 Change into the directory.
